@@ -6,50 +6,6 @@ A **modular backend system** built using Django REST Framework that simulates a 
 
 ## ⚙️ Project Architecture
 
-
-ecommerce_backend/
-│
-├── core/                     # main project settings
-│   ├── settings.py
-│   ├── urls.py
-│   ├── asgi.py
-│   ├── wsgi.py
-
-
-├── accounts/                # Auth + Roles
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── serializers.py
-│   ├── permissions.py
-│
-├── products/                # Product module
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── serializers.py
-│
-├── cart/                    # Cart system
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── serializers.py
-│
-├── orders/                  # Order system
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── serializers.py
-│
-├── payments/                # Razorpay integration
-│   ├── views.py
-│   ├── urls.py
-│
-├── manage.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-
 This project follows a **modular backend design**, where each feature is separated into independent Django apps:
 
 - 🔐 **accounts** → Authentication & Role Management
