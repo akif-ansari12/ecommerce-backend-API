@@ -6,6 +6,7 @@ A **modular backend system** built using Django REST Framework that simulates a 
 
 ## ⚙️ Project Architecture
 
+
 ecommerce_backend/
 │
 ├── core/                     # main project settings
@@ -13,7 +14,8 @@ ecommerce_backend/
 │   ├── urls.py
 │   ├── asgi.py
 │   ├── wsgi.py
-│
+
+
 ├── accounts/                # Auth + Roles
 │   ├── models.py
 │   ├── views.py
