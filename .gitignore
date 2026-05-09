@@ -1,4 +1,32 @@
+# Virtual Environment
 env/
+venv/
+myenv/
+
+# Python cache
 __pycache__/
+*.py[cod]
+
+# SQLite database
 db.sqlite3
-*.pyc
+
+# Environment variables
+.env
+
+# Static files
+staticfiles/
+
+# VS Code
+.vscode/
+
+# Mac/Linux
+.DS_Store
+
+# Logs
+*.log
+
+# Pytest
+.pytest_cache/
+
+# Migrations cache
+*.pyo
